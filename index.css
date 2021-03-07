@@ -1,0 +1,143 @@
+*{
+	margin:0px;
+	padding: 0px;
+	
+}
+#container_1{
+	width: 100%;
+	text-align: center;
+	}
+#container_2{
+	width: 100%;
+}
+#container_2 ul{
+		width: 100%;
+		text-align: center;
+
+	}
+
+#container_2 ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 1em;
+	margin: 0px;
+	
+
+}
+#container_2 h1,#container_2 p{
+	text-align: center;
+}
+#main_layout{
+	width: 100%;
+	margin-left: 15%;
+	margin-right: 15%;
+	
+	
+}
+#layout_basic{
+	text-align: center;
+}
+#container_4{
+	text-align: center;
+	width: 100%;
+	padding-top:8%;
+	line-height: 2.5em;
+}
+#container_5{
+	text-align: center;
+	width: 100%;
+	padding-top:8%;
+	line-height: 2.5em;
+}
+#container_6{
+	text-align: center;
+	width: 100%;
+	padding-top:8%;
+	line-height: 2.5em;
+
+}
+
+@media only screen and (max-width: 700px) {
+  #container_2 h1,#container_5 h1, #container_6 h1 {
+font-size: 1.5em;
+font-weight: bold;
+
+  }
+  #container_6 h2{
+font-size: 1.2em;
+
+
+  }
+}
+
+#social_media3 li, #social_media2 li{
+	display: inline-block;
+
+}
+#selecting_function{
+	width: 100%;
+	margin-bottom:1.5em;
+	background-color: #6c757d;
+	color: white;
+}
+#footer_layout{
+	background-color: #6c757d;
+	color:white;
+}
+ #email{
+	background-color: #6c757d;
+	width:100%;
+	margin-bottom: 0.5em;
+}
+#submit_type{
+	background-color: black;
+	color: white;
+	width:100%;
+	margin-bottom: 1em;
+}
+footer{
+	background-color:#6c757d;
+	border-top:1px solid black;
+	padding:0.5em;
+	text-align: center;
+	color:white;
+}
+
+.dropbtn {
+  background-color:inherit;
+  color: lightgray;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+#navigation_bar{
+	color:green;
+	background-color: red;
+}
